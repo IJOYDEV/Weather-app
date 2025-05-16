@@ -8,6 +8,7 @@ Features
 - 📍 Search by city name
 - 🖥️ Responsive design for desktop and mobile
 - ⚙️ Uses OpenWeatherMap API for real-time data
+
  Tech Stack
 
 - HTML
