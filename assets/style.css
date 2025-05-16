@@ -1,0 +1,65 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .weather-card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .weather-card h2 {
+      margin-top: 0;
+    }
+
+    .temperature {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .description {
+      font-size: 24px;
+      color: #666;
+    }
+
+    .details {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      color: #444;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    input {
+      width: 200px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
